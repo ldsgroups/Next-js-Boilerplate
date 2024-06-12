@@ -4,8 +4,9 @@
 /** @type {import('postcss-load-config').Config} */
 module.exports = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+    '@unocss/postcss': {
+      content: ['**/*.{html,js,ts,jsx,tsx}'],
+    },
     ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}),
   },
 };

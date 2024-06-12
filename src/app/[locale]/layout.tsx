@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
-import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
@@ -36,8 +35,10 @@ export default function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const lc = AppConfig.locales.map((locale) => locale.code);
+
   // Validate that the incoming `locale` parameter is valid
-  if (!AppConfig.locales.includes(props.params.locale)) notFound();
+  if (!lc.includes(props.params.locale)) notFound();
 
   // Using internationalization in Client Components
   const messages = useMessages();
@@ -50,8 +51,6 @@ export default function RootLayout(props: {
           messages={messages}
         >
           {props.children}
-
-          <DemoBadge />
         </NextIntlClientProvider>
       </body>
     </html>

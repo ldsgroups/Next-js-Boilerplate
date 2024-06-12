@@ -1,4 +1,5 @@
 {
+  "cSpell.language": "en, fr",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "search.exclude": {
@@ -28,5 +29,6 @@
   },
   "prettier.ignorePath": ".gitignore", // Don't run prettier for files listed in .gitignore
   "i18n-ally.localesPaths": ["src/locales"],
-  "i18n-ally.keystyle": "nested"
+  "i18n-ally.keystyle": "nested",
+  "cSpell.words": ["nextjs", "shadcn"]
 }

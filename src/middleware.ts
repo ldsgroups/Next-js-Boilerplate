@@ -5,7 +5,7 @@ import createMiddleware from 'next-intl/middleware';
 import { AppConfig } from './utils/AppConfig';
 
 const intlMiddleware = createMiddleware({
-  locales: AppConfig.locales,
+  locales: AppConfig.locales.map((el) => el.code),
   localePrefix: AppConfig.localePrefix,
   defaultLocale: AppConfig.defaultLocale,
 });
