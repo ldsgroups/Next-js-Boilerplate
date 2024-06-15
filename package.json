@@ -31,22 +31,31 @@
     "@hookform/resolvers": "^3.4.2",
     "@libsql/client": "^0.6.1",
     "@logtail/pino": "^0.4.21",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-slider": "^1.1.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@sentry/nextjs": "^7.116.0",
     "@spotlightjs/spotlight": "^1.2.17",
     "@t3-oss/env-nextjs": "^0.10.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
     "drizzle-orm": "^0.31.0",
+    "framer-motion": "^11.2.10",
     "lucide-react": "^0.394.0",
     "next": "^14.2.3",
     "next-intl": "^3.14.1",
+    "next-themes": "^0.3.0",
     "pino": "^8.21.0",
     "pino-pretty": "^10.3.1",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
     "react-hook-form": "^7.51.5",
+    "react-use-measure": "^2.1.1",
     "sharp": "^0.33.4",
+    "sonner": "^1.5.0",
     "tailwind-merge": "^2.3.0",
     "unocss": "^0.61.0",
     "unocss-preset-animations": "^1.0.2",
@@ -152,5 +161,5 @@
       "@semantic-release/github"
     ]
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "Darius Kassi (https://github.com/ldsgroups)"
 }

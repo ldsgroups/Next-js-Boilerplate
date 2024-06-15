@@ -25,6 +25,16 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
+      images: {
+        remotePatterns: [
+          {
+            hostname: 'media.istockphoto.com',
+          },
+          {
+            hostname: 'www.foodiesfeed.com',
+          },
+        ],
+      },
     }),
   ),
   {

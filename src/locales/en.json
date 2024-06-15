@@ -8,8 +8,10 @@
     "made_with": "Made with"
   },
   "Marketing": {
-    "stack": "Unocss ❤️ + Shadcn UI",
-    "description": "This is the marketing page",
-    "shadcn_button_text": "Shadcn Button"
+    "titleHighlight": "advanced menu digital solution",
+    "titleNormal": "for restaurants.",
+    "description": "simplify your operations, optimize your menus and improve the experience of your customers.",
+    "getStarted": "get Started",
+    "tryForFree": "try Menu Cool for free"
   }
 }
